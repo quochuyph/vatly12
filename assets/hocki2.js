@@ -1,7 +1,6 @@
 var btnHome = document.querySelector(".btnHome")
 
-var btnHk1 = document.querySelector(".btn-hk1")
-var btnHk2 = document.querySelector(".btn-hk2")
+var btnBack = document.querySelector(".btn")
 
 var btnHk1_Bai1 = document.querySelector(".hk1bai1")
 var btnHk1_Bai2 = document.querySelector(".hk1bai2")
@@ -17,9 +16,6 @@ var btnHk1_Bai11 = document.querySelector(".hk1bai11")
 var btnHk1_OTC1 = document.querySelector(".hk1OTC1")
 var btnHk1_OTC2 = document.querySelector(".hk1OTC2")
 
-var btnHk2_Bai12 = document.querySelector(".hk2bai12")
-var btnHk2_Bai13 = document.querySelector(".hk2bai13")
-
 btnHome.addEventListener("click", function(){
     btnHome.style.transform = "scale(0.9)"
     setTimeout(() => {
@@ -28,20 +24,12 @@ btnHome.addEventListener("click", function(){
     })
 })
 
-btnHk1.addEventListener("click", function(){
-    btnHk1.style.transform = "scale(0.9)"
+btnBack.addEventListener("click", function(){
+    btnBack.style.transform = "scale(0.9)"
     setTimeout(() => {
-        btnHk1.style.transform = "scale(1)"
-        window.location.href = "../hocki1.html"
-    }, 200)
-})
-
-btnHk2.addEventListener("click", function(){
-    btnHk2.style.transform = "scale(0.9)"
-    setTimeout(() => {
-        btnHk2.style.transform = "scale(1)"
-        window.location.href = "../hocki2.html"
-    }, 200)
+        btnBack.style.transform = "scale(1)"
+        window.location.href= "../index.html"
+    })
 })
 
 btnHk1_Bai1.addEventListener("click", function(){
@@ -145,21 +133,5 @@ btnHk1_OTC2.addEventListener("click", function(){
     setTimeout(() => {
         btnHk1_OTC2.style.transform = "scale(1)"
         window.location.href = "../hocki1.html#ontapc2"
-    }, 200)
-})
-
-btnHk2_Bai12.addEventListener("click", function(){
-    btnHk2_Bai12.style.transform = "scale(0.9)"
-    setTimeout(() => {
-        btnHk2_Bai12.style.transform = "scale(1)"
-        window.location.href = "../hocki2.html#bai12"
-    }, 200)
-})
-
-btnHk2_Bai13.addEventListener("click", function(){
-    btnHk2_Bai13.style.transform = "scale(0.9)"
-    setTimeout(() => {
-        btnHk2_Bai13.style.transform = "scale(1)"
-        window.location.href = "../hocki2.html#bai13"
     }, 200)
 })
