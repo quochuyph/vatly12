@@ -32,7 +32,7 @@ btnHk1.addEventListener("click", function(){
     btnHk1.style.transform = "scale(0.9)"
     setTimeout(() => {
         btnHk1.style.transform = "scale(1)"
-        window.location.href = "../hocki1.html"
+        window.location.href = "./hocki1.html"
     }, 200)
 })
 
