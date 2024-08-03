@@ -3,6 +3,8 @@ var btnHome = document.querySelector(".btnHome")
 var btnHk1 = document.querySelector(".btn-hk1")
 var btnHk2 = document.querySelector(".btn-hk2")
 
+var btnTailieu = document.querySelector(".btnTailieu")
+
 var btnHk1_Bai1 = document.querySelector(".hk1bai1")
 var btnHk1_Bai2 = document.querySelector(".hk1bai2")
 var btnHk1_Bai3 = document.querySelector(".hk1bai3")
@@ -19,8 +21,6 @@ var btnHk1_OTC2 = document.querySelector(".hk1OTC2")
 
 var btnHk2_Bai12 = document.querySelector(".hk2bai12")
 var btnHk2_Bai13 = document.querySelector(".hk2bai13")
-
-var btnTailieu = document.querySelector(".btnTailieu")
 
 btnHome.addEventListener("click", function(){
     btnHome.style.transform = "scale(0.9)"
