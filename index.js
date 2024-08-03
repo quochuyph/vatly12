@@ -4,6 +4,7 @@ var btnHk1 = document.querySelector(".btn-hk1")
 var btnHk2 = document.querySelector(".btn-hk2")
 
 var btnTailieu = document.querySelector(".btnTailieu")
+var btnDocs = document.querySelector(".btnDocs")
 
 var btnHk1_Bai1 = document.querySelector(".hk1bai1")
 var btnHk1_Bai2 = document.querySelector(".hk1bai2")
@@ -170,6 +171,14 @@ btnTailieu.addEventListener("click", function(){
     btnTailieu.style.transform = "scale(0.9)"
     setTimeout(() => {
         btnTailieu.style.transform = "scale(1)"
+        window.location.href = "./tailieu/tailieu.html"
+    }, 200)
+})
+
+btnDocs.addEventListener("click", function(){
+    btnDocs.style.transform = "scale(0.9)"
+    setTimeout(() => {
+        btnDocs.style.transform = "scale(1)"
         window.location.href = "./tailieu/tailieu.html"
     }, 200)
 })
