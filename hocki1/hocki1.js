@@ -5,6 +5,7 @@ var btnBack = document.querySelector(".btn")
 var btnHk2_Bai12 = document.querySelector(".hk2bai12")
 var btnHk2_Bai13 = document.querySelector(".hk2bai13")
 var btnHk2_Bai14 = document.querySelector(".hk2bai14")
+var btnHk2_Bai15 = document.querySelector(".hk2bai15")
 
 var btnTailieu = document.querySelector(".btnTailieu")
 
@@ -45,6 +46,14 @@ btnHk2_Bai14.addEventListener("click", function(){
     setTimeout(() => {
         btnHk2_Bai14.style.transform = "scale(1)"
         window.location.href = "../hocki2/hocki2.html#bai14"
+    }, 200)
+})
+
+btnHk2_Bai15.addEventListener("click", function(){
+    btnHk2_Bai15.style.transform = "scale(0.9)"
+    setTimeout(() => {
+        btnHk2_Bai15.style.transform = "scale(1)"
+        window.location.href = "../hocki2/hocki2.html#bai15"
     }, 200)
 })
 
